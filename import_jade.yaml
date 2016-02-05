@@ -1,0 +1,6 @@
+name: backfill-ros
+method: http://packages.ros.org/ros/ubuntu/
+suites: [trusty]
+component: main
+architectures: [amd64, source]
+filter_formula: Package (% ros-jade-* )
