@@ -8,6 +8,6 @@ distributions:
   #   distribution_cache: http://repositories.ros.org/rosdistro_cache/jade-cache.yaml.gz
   jade:
     distribution: [jade/distribution.yaml]
-    distribution_cache: http://192.168.122.100/rosdistro_cache/jade-cache.yaml.gz
+    distribution_cache: http://129.132.28.179/rosdistro_cache/jade-cache.yaml.gz
 type: index
 version: 3
