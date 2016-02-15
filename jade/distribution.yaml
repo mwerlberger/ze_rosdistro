@@ -6,5 +6,21 @@ release_platforms:
   ubuntu:
   - trusty
 repositories:
+  catkin_simple:
+    doc:
+      type: git
+      url: https://github.com/zurich-eye/catkin_simple.git
+      version: jade-devel
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/zurich-eye/catkin_simple-release.git
+      version: 0.1.1-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/zurich-eye/catkin_simple.git
+      version: master
+    status: developed
 type: distribution
 version: 1
