@@ -3,9 +3,6 @@
 # see REP 143: http://ros.org/reps/rep-0143.html
 ---
 distributions:
-  # jade:
-  #   distribution: [jade/distribution.yaml]
-  #   distribution_cache: http://repositories.ros.org/rosdistro_cache/jade-cache.yaml.gz
   jade:
     distribution: [jade/distribution.yaml]
     distribution_cache: http://129.132.28.179/rosdistro_cache/jade-cache.yaml.gz
