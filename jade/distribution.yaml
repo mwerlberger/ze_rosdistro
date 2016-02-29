@@ -17,5 +17,16 @@ repositories:
       url: https://github.com/zurich-eye/catkin_simple.git
       version: master
     status: maintained
+  cmake_external_project_catkin:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/zurich-eye/cmake_external_project_catkin-release.git
+      version: 1.0.0-0
+    source:
+      type: git
+      url: https://github.com/zurich-eye/cmake_external_project_catkin.git
+      version: master
+    status: maintained
 type: distribution
 version: 1
