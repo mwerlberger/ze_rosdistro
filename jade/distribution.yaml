@@ -28,5 +28,16 @@ repositories:
       url: https://github.com/zurich-eye/cmake_external_project_catkin.git
       version: master
     status: maintained
+  gflags_catkin:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/zurich-eye/gflags_catkin-release.git
+      version: 0.1.1-0
+    source:
+      type: git
+      url: https://github.com/zurich-eye/gflags_catkin.git
+      version: master
+    status: maintained
 type: distribution
 version: 1
