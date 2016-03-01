@@ -34,11 +34,11 @@ repositories:
       - fast
       tags:
         release: release/jade/{package}/{version}
-      url: https://github.com/zurich-eye/fast_neon-release.git
+      url: git@github.com:zurich-eye/fast_neon-release.git
       version: 0.0.1-0
     source:
       type: git
-      url: https://github.com/zurich-eye/fast_neon.git
+      url: git@github.com:zurich-eye/fast_neon.git
       version: 0.0.1
     status: maintained
   gflags_catkin:
