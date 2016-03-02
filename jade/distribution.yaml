@@ -78,7 +78,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: git@github.com:zurich-eye/visensor_node_devel-release.git
-      version: 1.7.5-0
+      version: 1.7.6-0
     status: developed
 type: distribution
 version: 1
