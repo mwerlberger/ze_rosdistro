@@ -68,7 +68,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: git@github.com:zurich-eye/libvisensor_devel-release.git
-      version: 2.5.5-1
+      version: 2.5.6-0
     status: developed
 type: distribution
 version: 1
