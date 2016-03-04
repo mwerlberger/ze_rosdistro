@@ -46,28 +46,6 @@ repositories:
       url: https://github.com/zurich-eye/gflags-release.git
       version: 2.1.2-2
     status: maintained
-  gflags_catkin:
-    release:
-      tags:
-        release: release/jade/{package}/{version}
-      url: https://github.com/zurich-eye/gflags_catkin-release.git
-      version: 0.1.1-0
-    source:
-      type: git
-      url: https://github.com/zurich-eye/gflags_catkin.git
-      version: master
-    status: maintained
-  glog_catkin:
-    release:
-      tags:
-        release: release/jade/{package}/{version}
-      url: git@github.com:zurich-eye/glog_catkin-release.git
-      version: 0.1.2-1
-    source:
-      type: git
-      url: git@github.com:zurich-eye/glog_catkin.git
-      version: master
-    status: maintained
   libvisensor:
     release:
       tags:
