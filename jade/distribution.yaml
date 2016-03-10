@@ -3,8 +3,7 @@
 # see REP 141: http://ros.org/reps/rep-0141.html
 ---
 release_platforms:
-  ubuntu:
-  - trusty
+  ubuntu: [trusty, xenial]
 repositories:
   catkin_simple:
     release:
