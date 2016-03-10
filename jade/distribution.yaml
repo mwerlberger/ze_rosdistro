@@ -45,6 +45,7 @@ repositories:
       url: git@github.com:zurich-eye/libvisensor_devel-release.git
       version: 2.6.0-0
     source:
+      test_pull_requests: true
       type: git
       url: git@github.com:zurich-eye/libvisensor_devel.git
       version: master
@@ -59,6 +60,7 @@ repositories:
       url: git@github.com:zurich-eye/visensor_node_devel-release.git
       version: 1.8.0-0
     source:
+      test_pull_requests: true
       type: git
       url: git@github.com:zurich-eye/visensor_node_devel.git
       version: master
