@@ -34,7 +34,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: git@github.com:zurich-eye/ze_buildfarm_releases.git
-      version: 0.0.1-1
+      version: 0.0.1-2
     source:
       type: git
       url: git@github.com:zurich-eye/fast_neon.git
