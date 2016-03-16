@@ -12,7 +12,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/zurich-eye/catkin_simple-release.git
-      version: 0.1.2-7
+      version: 0.1.2-8
     source:
       type: git
       url: https://github.com/zurich-eye/catkin_simple.git
