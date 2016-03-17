@@ -40,17 +40,6 @@ repositories:
       url: git@github.com:zurich-eye/fast_neon.git
       version: master
     status: maintained
-  gflags:
-    release:
-      tags:
-        release: release/jade/{package}/{version}
-      url: https://github.com/zurich-eye/gflags-release.git
-      version: 2.1.2-2
-    source:
-      type: git
-      url: https://github.com/gflags/gflags.git
-      version: master
-    status: maintained
   libvisensor:
     release:
       tags:
