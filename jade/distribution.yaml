@@ -45,7 +45,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/zurich-eye/gflags-release.git
-      version: 2.1.2-5
+      version: 2.1.2-6
     source:
       type: git
       url: https://github.com/gflags/gflags.git
