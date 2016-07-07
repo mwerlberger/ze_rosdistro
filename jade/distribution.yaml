@@ -5,7 +5,6 @@
 release_platforms:
   ubuntu:
   - trusty
-  - xenial
 repositories:
   catkin_simple:
     release:
@@ -29,73 +28,5 @@ repositories:
       url: https://github.com/zurich-eye/cmake_external_project_catkin.git
       version: master
     status: maintained
-  dlib:
-    release:
-      tags:
-        release: release/jade/{package}/{version}
-      url: https://github.com/zurich-eye/dlib-release.git
-      version: 0.0.1-0
-    source:
-      type: git
-      url: https://github.com/zurich-eye/DLib.git
-      version: master
-  fast:
-    release:
-      tags:
-        release: release/jade/{package}/{version}
-      url: git@github.com:zurich-eye/ze_buildfarm_releases.git
-      version: 0.0.1-2
-    source:
-      type: git
-      url: git@github.com:zurich-eye/fast_neon.git
-      version: master
-    status: maintained
-  gflags:
-    release:
-      tags:
-        release: release/jade/{package}/{version}
-      url: https://github.com/zurich-eye/gflags-release.git
-      version: 2.1.2-11
-    source:
-      type: git
-      url: https://github.com/gflags/gflags.git
-      version: master
-  glog:
-    release:
-      tags:
-        release: release/jade/{package}/{version}
-      url: https://github.com/zurich-eye/glog-release.git
-      version: 0.4.2-0
-    source:
-      type: git
-      url: https://github.com/zurich-eye/glog.git
-      version: master
-  libvisensor:
-    release:
-      tags:
-        release: release/jade/{package}/{version}
-      url: git@github.com:zurich-eye/libvisensor_devel-release.git
-      version: 2.6.1-0
-    source:
-      test_pull_requests: true
-      type: git
-      url: git@github.com:zurich-eye/libvisensor_devel.git
-      version: master
-    status: developed
-  visensor_node:
-    release:
-      packages:
-      - visensor_msgs
-      - visensor_node
-      tags:
-        release: release/jade/{package}/{version}
-      url: git@github.com:zurich-eye/visensor_node_devel-release.git
-      version: 1.8.1-0
-    source:
-      test_pull_requests: true
-      type: git
-      url: git@github.com:zurich-eye/visensor_node_devel.git
-      version: master
-    status: developed
 type: distribution
 version: 1
