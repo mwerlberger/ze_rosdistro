@@ -6,8 +6,8 @@ distributions:
   jade:
     distribution: [jade/distribution.yaml]
     distribution_cache: http://129.132.16.44/rosdistro_cache/jade-cache.yaml.gz
-  # kinetic:
-  #   distribution: [kinetic/distribution.yaml]
-  #   distribution_cache: http://129.132.16.44/rosdistro_cache/kinetic.yaml.gz
+  kinetic:
+    distribution: [kinetic/distribution.yaml]
+    distribution_cache: http://129.132.16.44/rosdistro_cache/kinetic.yaml.gz
 type: index
 version: 3
