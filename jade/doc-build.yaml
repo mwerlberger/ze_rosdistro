@@ -17,7 +17,7 @@ targets:
     apt_mirrors:
     - http://repos.ros.org/repos/building/
   ubuntu:
-    vivid:
+    trusty:
       amd64:
 type: doc-build
 version: 1
