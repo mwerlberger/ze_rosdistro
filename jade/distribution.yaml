@@ -28,5 +28,16 @@ repositories:
       url: https://github.com/zurich-eye/cmake_external_project_catkin.git
       version: master
     status: maintained
+  ze_ros_msg:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/zurich-eye/ze_ros_msg-release.git
+      version: 1.0.0-0
+    source:
+      type: git
+      url: https://github.com/zurich-eye/ze_ros_msg.git
+      version: master
+    status: developed
 type: distribution
 version: 2
