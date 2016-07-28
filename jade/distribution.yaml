@@ -32,7 +32,7 @@ repositories:
     release:
       tags:
         release: release/jade/{package}/{version}
-      url: git@github.com:zurich-eye/ze_ros_msg-release.git
+      url: https://github.com/zurich-eye/ze_ros_msg-release.git
       version: 1.0.1-0
     source:
       type: git
